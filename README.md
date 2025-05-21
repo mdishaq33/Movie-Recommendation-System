@@ -17,7 +17,7 @@ pip install -r requirements.txt
 
 Set up TMDB API key:
 Create a file named .streamlit/secrets.toml in the project root.
-Add your TMDB API key to this filetmdb_api_key = "your_api_key_here"
+Add your TMDB API key to this filetmdb_api_key "https://api.themoviedb.org/3/movie/{movie_id}?api_key=d8d4ae807066757910fae91d5193629e&language=en-US"
 
 🚀 Usage
 Run the Streamlit application:
